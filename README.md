@@ -38,7 +38,7 @@ Telegram.php is a lightweight and dependency-free PHP library for building Teleg
 
 4. Example usage:
 
-   ```
+   ```php
    switch (Telegram::command) {
        case '/start':
            Bot::sendMessage([
